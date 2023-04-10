@@ -8,7 +8,7 @@ class Program
 {
     static void Main()
     {
-        BankTransferConfig config = new BankTransferConfig.Load("D:\Dokumen\Kuliah\Semester 4\Konstruksi Perangkat Lunak\modul8_1302213007\modul8_1302213007\bank_transfer_config.json");
+        BankTransferConfig config = new BankTransferConfig.Load("D:\\Dokumen\\Kuliah\\Semester 4\\Konstruksi Perangkat Lunak\\modul8_1302213007\\modul8_1302213007\\bank_transfer_config.json");
 
         Console.WriteLine(config.Lang == "en" ? "Please insert the amount of money to transfer : " : "Masukkan jumlah uang yang akan di transfer : ");
         int amount = int.Parse(Console.ReadLine());
